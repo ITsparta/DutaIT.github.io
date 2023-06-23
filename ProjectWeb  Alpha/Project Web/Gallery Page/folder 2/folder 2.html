@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Duta IT SPARTA</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="../../Main Page/logo e.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <div class="Container-NavBar">
+        <nav class="Wrapper-NavBar">    
+            <div class="Logo">
+                    <img class="LogoDuta" src="../../Main Page/logo e.jpg">
+                    <div class="Tittle">
+                        <div>Duta IT </div>
+                        <div>Sparta</div>
+                    </div>
+            </div>
+            <div class="menubtn"> </div>
+            <div class="NavBar">
+                <ul class="NavBar-items">
+                    <li><a class="NavBar-li-Active" href="../../Main Page/Main Page.html" target="_self">Home</a></li>
+                    <li><a class="NavBar-li-2" href="../../Gallery Page/Gallery Page.html" target="_self">Gallery</a></li>
+                    <li><a class="NavBar-li-0" href="../../Contact Us Page/Contact Us.html" target="_self">Contact Us</a></li>
+                    <!--<li><a class="NavBar-li-1" href="../Support Us Page/Support Us.html" target="_self">Support Us</a></li>-->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- NavBar END -->
+
+    <!--Image Collection-->
+    <div class="tittle-navigation"><a href="../Gallery Page.html">Gallery</a> / US Kelas 9 22-23</div>
+    <div class="wrapper-folder">
+        <picture>
+            <img src="b-1.jpg">
+            <img src="b-2.jpg">
+            <!--butuh belajar css grid <img src="b-3.jpg"> -->
+            <img src="b-4.jpg">
+            <img src="b-5.jpg">
+            <img src="b-6.jpg">
+            <img src="b-7.jpg">
+            <img src="b-8.jpg">
+        </picture>
+    
+    </div>
+    <!--Image Collection END-->
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+        //Script tombol
+        const menuBtn = document.querySelector (".menubtn");
+        const menuNav = document.querySelector (".NavBar");
+
+        menuBtn.addEventListener ('click', () => {
+            menuBtn.classList.toggle('active');
+            menuNav.classList.toggle('active');
+        });
+    </script>
+    <!-- JavaScript End -->
+
+</body>
+
+</html>
